@@ -32,6 +32,7 @@ li {
   border-bottom: 1px solid #e2e2e2;
   position: fixed;
   top: 0;
+  z-index: 1200px;
 }
 
 .nav-icon,
@@ -74,4 +75,92 @@ li {
   font-weight: 750;
   cursor: pointer;
   border: none;
+}
+
+/* Banner */
+
+.main-container {
+  margin-top: 5%;
+  padding: 10px;
+}
+
+.section-title {
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.banner-img {
+   max-width: 60rem;
+   margin: auto;
+}
+
+.banner-img img {
+  width: 100%;
+}
+
+.image-description-text {
+   font-size: 12px;
+}
+
+.flex-item-2 {
+  max-width: 40%;
+  margin: auto;
+}
+
+.head-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.editor, .big-text {
+  padding: 1rem 1rem 0 1rem;
+  font-weight: 700;
+}
+
+.date {
+  font-size: 13px;
+}
+
+.icon {
+  padding: 5px;
+  background: rgb(245, 241, 241);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background: #fff;
+  border: .5px solid rgb(216, 213, 213);
+}
+
+.site-main-text p {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+aside {
+  width: 15%;
+  right: 0;
+  position: absolute;
+  top: 1400px;
+  margin-right: 140px;
+  z-index: -1000px;
+}
+
+aside img {
+  width: 30%;
+  float: left;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.aside-text {
+  padding: 15px;
+}
+
+#editor {
+  border-bottom: .5px solid rgb(223, 221, 221);
 }
