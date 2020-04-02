@@ -20,7 +20,7 @@ A clone of the new york times article page.
 
 ## Live Demo
 
-[live demo](https://raw.githack.com/evansinho/New-York-Times/new-york-times-clone/index.html)
+* [live demo](https://raw.githack.com/evansinho/New-York-Times/new-york-times-clone/index.html)
 
 ## Getting Started
 
@@ -37,6 +37,7 @@ email: Igiri.evanson@gmail.com
 👤 Author2
 
 Github: @clayton siby
+email: claytonsiby@gmail.com
 
 ## 🤝Contributing
 
