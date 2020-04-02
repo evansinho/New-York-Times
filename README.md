@@ -20,7 +20,7 @@ A clone of the new york times article page.
 
 ## Live Demo
 
-Link to the application -`https://evansinho.github.io/New-York-Times/`
+[live demo](https://raw.githack.com/evansinho/New-York-Times/new-york-times-clone/index.html)
 
 ## Getting Started
 
