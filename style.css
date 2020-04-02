@@ -309,7 +309,6 @@ figcaption span {
   border-top: 1px solid #e0d7d7;
 }
 
-
 /* main footer */
 
 .main-footer {
@@ -323,7 +322,7 @@ figcaption span {
 .footer-header {
   display: flex;
   justify-content: space-between;
-  padding: .5rem 0 .7rem 0;
+  padding: 0.5rem 0 0.7rem 0;
 }
 
 #homepage-btn {
@@ -350,16 +349,12 @@ figcaption span {
 }
 
 .item-link:hover {
-  border-bottom: .2px solid gray;
+  border-bottom: 0.2px solid gray;
 }
 
 #subscribe-links {
   border-left: 1px solid rgb(59, 56, 56);
   padding-left: 20px;
-}
-
-#subscribe-links ul li:not(:first-child) {
-  margin: .3rem 0 .3rem 0;
 }
 
 .much-smaller-text {
@@ -385,15 +380,19 @@ figcaption span {
   float: left;
 }
 
+#subscribe-links ul li:not(:first-child) {
+  margin: 0.3rem 0 0.3rem 0;
+}
+
 .contact-info {
   font-size: 10.5px;
-  padding: 0 .4rem 0 .4rem;
+  padding: 0 0.4rem 0 0.4rem;
   color: rgb(59, 56, 56);
   text-decoration: none;
 }
 
 .contact-info:hover {
-  border-bottom: .2px solid gray;
+  border-bottom: 0.2px solid gray;
 }
 
 .editional-info {
@@ -401,5 +400,5 @@ figcaption span {
   justify-content: space-between;
   max-width: 70%;
   margin: auto;
-  padding: .5rem 0 1rem 0;
+  padding: 0.5rem 0 1rem 0;
 }
