@@ -119,7 +119,7 @@ li {
 }
 
 .icon {
-  padding: 5px;
+  padding: 7px;
   background: rgb(245, 241, 241);
   border-radius: 50%;
   cursor: pointer;
@@ -141,7 +141,7 @@ aside {
   right: 0;
   position: absolute;
   top: 1400px;
-  margin-right: 140px;
+  right: 80px;
   z-index: -1000px;
 }
 
@@ -149,7 +149,14 @@ aside img {
   width: 30%;
   float: left;
   overflow: hidden;
-  padding: 20px;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.aside-text:hover {
+  color: rgb(98, 98, 190);
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .logo img {
@@ -167,6 +174,10 @@ aside img {
 
 #editor {
   border-bottom: 0.5px solid rgb(223, 221, 221);
+}
+
+#bold-text {
+  font-weight: 700;
 }
 
 /* Theory */
@@ -217,12 +228,19 @@ aside img {
   border-top: 1px solid black;
 }
 
-figcaption {
+iframe {
+  width: 560px;
+   height: 319px;
+   border: none;
+}
+
+#fig-text {
   font-size: 12px;
   color: #666;
   line-height: 20px;
   max-width: 900px;
-  margin-top: -20px;
+  margin: -35px 0 0 0;
+  
 }
 
 figcaption span {
@@ -351,6 +369,12 @@ figcaption span {
 .special-link {
   font-size: 15px;
   font-weight: 700;
+}
+
+#margined-item {
+  line-height: 0;
+  border-bottom: 1px solid gray;
+  padding: .2rem 0 .5rem 0;
 }
 
 #editor-information {
