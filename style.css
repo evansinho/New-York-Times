@@ -286,6 +286,7 @@ figcaption span {
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 20px;
 }
 
 .editor-choice {
@@ -294,7 +295,8 @@ figcaption span {
 }
 
 .space,
-.popular {
+.popular,
+.space-header {
   border-top: 1px solid black;
 }
 
