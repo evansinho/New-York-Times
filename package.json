@@ -1,0 +1,23 @@
+{
+  "name": "mint-sign-up-page",
+  "version": "1.0.0",
+  "description": "A clone of the mint.com Sign Up Page\r ![A Snapshot of the YouTube video player page](/images/snapshot.PNG)",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taiwocoker/Mint-Sign-Up-Page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taiwocoker/Mint-Sign-Up-Page/issues"
+  },
+  "homepage": "https://github.com/taiwocoker/Mint-Sign-Up-Page#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
