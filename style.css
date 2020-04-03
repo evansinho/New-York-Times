@@ -71,6 +71,7 @@ li {
   font-weight: 750;
   cursor: pointer;
   border: none;
+  text-align: center;
 }
 
 /* Banner */
@@ -143,6 +144,8 @@ aside {
   top: 1400px;
   right: 80px;
   z-index: -1000px;
+  display: flex;
+  flex-direction: column;
 }
 
 aside img {
@@ -254,18 +257,27 @@ figcaption span {
   max-width: 900px;
 }
 
-.globe p {
+.globe {
+  max-width: 95%;
+  margin: auto;
+}
+
+.globe-text {
   font-size: 11px;
   color: #9c9595;
-  max-width: 600px;
 }
 
 .globe img {
   width: 100%;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .last-paragraph {
   padding: 10px;
+  text-align: center;
 }
 
 .button {
