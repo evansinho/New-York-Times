@@ -62,7 +62,8 @@ li {
 }
 
 .nav-buttons button {
-  padding: 12px 8px 8px 14px;
+  padding: 12px 10px;
+  text-decoration: center;
   border-radius: 4px;
   background-color: #567b95;
   color: #fff;
@@ -152,6 +153,12 @@ aside img {
   text-decoration: underline;
 }
 
+.inline-msg {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px 50px;
+}
+
 .aside-text {
   padding: 15px;
 }
@@ -228,8 +235,8 @@ aside img {
 }
 
 iframe {
-  width: 560px;
-  height: 319px;
+  width: 620px;
+  height: 330px;
   border: none;
 }
 
@@ -251,6 +258,10 @@ figcaption span {
   font-size: 11px;
   color: #9c9595;
   max-width: 600px;
+}
+
+.globe img {
+  width: 100%;
 }
 
 .last-paragraph {
@@ -317,6 +328,7 @@ figcaption span {
   max-width: 80%;
   margin: 2rem auto auto auto;
   border-top: 5px solid rgb(228, 224, 224);
+  padding-bottom: 50px;
 }
 
 .footer-header {
@@ -398,7 +410,17 @@ figcaption span {
 .editional-info {
   display: flex;
   justify-content: space-between;
-  max-width: 70%;
+  max-width: 100%;
   margin: auto;
-  padding: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  border-top: 1px solid black;
+  padding: 20px 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.editional-info p {
+  margin-left: 400px;
 }
