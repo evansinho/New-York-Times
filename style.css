@@ -138,7 +138,6 @@ li {
 
 aside {
   width: 15%;
-  right: 0;
   position: absolute;
   top: 1400px;
   right: 80px;
@@ -151,6 +150,10 @@ aside img {
   overflow: hidden;
   padding: 10px;
   text-decoration: underline;
+}
+
+.aside-text {
+  padding: 15px;
 }
 
 .aside-text:hover {
@@ -166,10 +169,6 @@ aside img {
 
 .banner-img img {
   width: 100%;
-}
-
-.aside-text {
-  padding: 15px;
 }
 
 #editor {
@@ -230,8 +229,8 @@ aside img {
 
 iframe {
   width: 560px;
-   height: 319px;
-   border: none;
+  height: 319px;
+  border: none;
 }
 
 #fig-text {
@@ -240,7 +239,6 @@ iframe {
   line-height: 20px;
   max-width: 900px;
   margin: -35px 0 0 0;
-  
 }
 
 figcaption span {
@@ -371,7 +369,7 @@ figcaption span {
 #margined-item {
   line-height: 0;
   border-bottom: 1px solid gray;
-  padding: .2rem 0 .5rem 0;
+  padding: 0.2rem 0 0.5rem 0;
 }
 
 #editor-information {
